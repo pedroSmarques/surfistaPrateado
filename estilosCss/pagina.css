@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+.imagens1{
+    display: flex;
+    height: 15px;
+    width: 100px;
+    object-fit: contain;
+    opacity: 0.8;
+    float: left;
+} 
+.barraPesquisa{
+    width: 300px;
+    position: relative; 
+    left: 80%;
+    top: 100%;
+    border-radius: 20px;
+
+}   
+ul{
+    list-style: none;
+}
+.navegacao ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.botoes{
+    background: linear-gradient(to right, #EDEDED, #BDBDBD);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    height: 25px;
+    cursor: pointer;
+}
+li{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    top: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.botoes img{
+    height: 15px;
+    width: 100px;
+    object-fit: contain;
+    opacity: 0.8;
+}
