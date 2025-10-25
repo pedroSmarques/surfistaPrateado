@@ -5,12 +5,47 @@ body {
     padding: auto;
 }
 
-.poemaVn {
-    border: 1px solid red;
-    height: 500px;
-    width: 350px;
+.paidetodos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.poema {
+    border: 2px solid rgb(112, 107, 37);
+    padding: 20px;
+    margin: 5px;
+    background-color: #ffefd5;
+    font-size: 18px;
+    font-family: Story Script, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    border-radius: 10px;
+    white-space: pre-line;
+    width: 500px;
+}
+.poema img{
+    height: 100px;
+    width: 100px;
+}
+.img-titulo{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.imagens{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
+
+.imagens:nth-child(n+4){
+    justify-content: space-around;
+}
+
+
+.imagens img{
+    height: 100px;
+}
+
